@@ -13,7 +13,7 @@ def loadDeparturesForStation(journeyConfig, appId, apiKey):
 
     departureStation = journeyConfig["departureStation"]
 
-    URL = f"http://transportapi.com/v3/uk/train/station/{departureStation}/live.json"
+    URL = f"https://transportapi.com/v3/uk/train/station/{departureStation}/live.json"
 
     PARAMS = {'app_id': appId,
               'app_key': apiKey,
